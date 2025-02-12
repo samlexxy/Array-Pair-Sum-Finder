@@ -3,10 +3,11 @@ import unittest
 
 class TestGetUniquePairs(unittest.TestCase):
     def test_empty_array(self):
+        # Test with an empty array
         self.assertEqual(get_unique_pairs([]), [])
 
     def test_no_duplicate_sums(self):
-        # Tes with an empty array
+        # Test with an array with no duplicate array
         array = [1, 2, 3]
         self.assertEqual(get_unique_pairs(array), [])
 
