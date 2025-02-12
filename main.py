@@ -33,8 +33,10 @@ if __name__ == "__main__":
     
     arr1 = [6, 4, 12, 10, 22, 54, 32, 42, 21, 11]
     output1 = get_unique_pairs(arr1)
+    print("Input1 : ", arr1)
     print_output(output1)
 
     arr2 = [4, 23, 65, 67, 24, 12, 86]
     output2 = get_unique_pairs(arr2)
+    print("Input2 : ", arr2)
     print_output(output2)
